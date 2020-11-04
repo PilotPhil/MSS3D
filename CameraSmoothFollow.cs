@@ -1,16 +1,16 @@
-﻿using UnityEngine;
+﻿/*
+ * 此脚本挂载于摄像机下
+ * 
+ * 实现：
+ * 1.摄像机平滑跟踪物体
+ * 2.调教相机与物体之间距离、相机高度等
+ */
+
+using UnityEngine;
 using System.Collections;
 
 public class CameraSmoothFollow : MonoBehaviour 
 {
-	/*
-	 * 此脚本挂载于摄像机下
-	 * 
-	 * 实现：
-	 * 1.摄像机平滑跟踪物体
-	 * 2.调教相机与物体之间距离、相机高度等
-	 */
-
 	public Transform targetBoat;				// 跟踪目标
 	public float distance = 3.0f;				// 与目标之间距离
 	public float height = 3.0f;					// 相机高度
