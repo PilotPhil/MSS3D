@@ -1,6 +1,6 @@
 # 海洋模拟系统3D
 
-# Marine Simulation System 3D
+Marine Simulation System 3D
 
 ## 1.海浪模拟系统
 
