@@ -1,13 +1,19 @@
 ﻿/*
- * 此脚本挂载于要漫游摄像机下
- * 
+ * 作者：Pilot.Phil
+ * 时间：2020-11-29
+ *
+ * 简介：在游戏内使用WASDQE来控制摄像机的3自由度运动
+ *
+ * 使用：
+ *      1.此脚本挂载于要漫游摄像机下
+ *
  * 实现：
- * 1.WASD移动摄像机
- * 2.Q上升
- * 3.E下降
- * 4.按住Shift：更快
- * 5.按住control：更慢
- * 6.end键：是否锁定光标
+ * 		1.WASD移动摄像机
+ * 		2.Q上升、E下降
+ * 		3.按住Shift：更快
+ * 		4.按住control：更慢
+ * 		5.end键：是否锁定光标
+ *
  */
 
 
@@ -26,7 +32,7 @@ public class FlyCam : MonoBehaviour
 	public float slowMoveFactor = 0.25f;		// 更慢移动速度（control）
 	public float fastMoveFactor = 3;			// 更快移动速度（shift）
 
-	private float rotationX = 0.0f;				
+	private float rotationX = 0.0f;
 	private float rotationY = 0.0f;
 
 
